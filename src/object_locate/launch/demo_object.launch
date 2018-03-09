@@ -1,0 +1,4 @@
+<launch>
+  <param name="face_cascade_name" value="$(find object_locate)/config/haarcascade_frontalface_default.xml" />
+  <node pkg="object_locate" type="object_locate" name="object" args=""/>
+</launch>

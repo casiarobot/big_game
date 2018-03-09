@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="ros_pcduino" type="sensor_node" name="sensor" args=""/>
+
+  <node pkg="ros_pcduino" type="griper_control_node" name="griper" args=""/>
+  <node pkg="ros_pcduino" type="car_control_node" name="car" args=""/>
+ </launch>

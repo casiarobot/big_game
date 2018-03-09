@@ -1,0 +1,8 @@
+prefix=/home/catkin_ws/devel
+
+Name: ros_pcduino
+Description: Description of ros_pcduino
+Version: 0.0.0
+Cflags: -I/home/catkin_ws/src/ros_pcduino/include
+Libs: -L/home/catkin_ws/devel/lib -lros_pcduino
+Requires: roscpp rospy tosmsgs
